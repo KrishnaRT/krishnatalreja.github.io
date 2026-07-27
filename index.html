@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Krishna R Talreja | Azure Integration Engineer</title>
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<!-- Lucide Icons -->
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+navy: '#0B1220',
+card: '#111827',
+azure: '#0078D4',
+lightAzure: '#38BDF8',
+textMuted: '#94A3B8',
+},
+fontFamily: {
+heading: ['Poppins', 'sans-serif'],
+body: ['Inter', 'sans-serif'],
+mono: ['JetBrains Mono', 'monospace'],
+}
+}
+}
+}
+</script>
+<style>
+.glow-hover:hover {
+box-shadow: 0 0 25px -5px rgba(0, 120, 212, 0.4);
+border-color: rgba(56, 189, 248, 0.4);
+}
+</style>
+</head>
+<body class="bg-navy text-white font-body antialiased selection:bg-azure selection:text-white">
+
+<!-- Navigation Bar -->
+<nav class="fixed top-0 left-0 w-full z-50 bg-navy/80 backdrop-blur-md border-b border-white/10">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<a href="#" class="font-heading text-2xl font-bold tracking-wider text-azure">KRT</a>
+
+<!-- Desktop Menu -->
+<div class="hidden md:flex items-center space-x-8 text-sm font-medium text-textMuted">
+<a href="#about" class="hover:text-white transition">About</a>
+<a href="#services" class="hover:text-white transition">What I Do</a>
+<a href="#skills" class="hover:text-white transition">Skills</a>
+<a href="#experience" class="hover:text-white transition">Experience</a>
+<a href="#certifications" class="hover:text-white transition">Certifications</a>
+<a href="#contact" class="hover:text-white transition">Contact</a>
+</div>
+
+<a href="Krishna R T.pdf" download class="hidden md:inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-azure hover:bg-blue-600 text-white font-medium text-sm transition">
+<i data-lucide="download" class="w-4 h-4"></i> Download Resume
+</a>
+</div>
+</nav>
+
+<!-- Main Container -->
+<main class="max-w-7xl mx-auto px-6 pt-32 pb-20 space-y-28">
+
+<!-- Hero Section -->
+<section class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-7 space-y-6">
+<div class="flex items-center gap-5">
+<!-- Made picture slightly larger (w-24 h-24) -->
+<img src="Krishna R T.jpg" alt="Krishna R Talreja" class="w-24 h-24 rounded-full object-cover border-2 border-azure p-0.5 shadow-lg shadow-azure/30">
+<div>
+<h1 class="font-heading text-3xl sm:text-5xl font-bold tracking-tight text-white">KRISHNA R TALREJA</h1>
+<p class="text-lightAzure font-medium text-lg mt-1">Azure Integration Engineer</p>
+</div>
+</div>
+
+<p class="text-textMuted text-lg leading-relaxed max-w-2xl">
+Building Enterprise-Grade Cloud Integrations & Scalable Data Pipelines on Microsoft Azure.
+</p>
+
+<!-- Badges -->
+<div class="flex flex-wrap gap-2 pt-2">
+<span class="px-3 py-1.5 rounded-md text-xs font-mono bg-white/5 border border-white/10 text-slate-300">2.5+ Years Experience</span>
+<span class="px-3 py-1.5 rounded-md text-xs font-mono bg-white/5 border border-white/10 text-slate-300">Azure Data Factory</span>
+<span class="px-3 py-1.5 rounded-md text-xs font-mono bg-white/5 border border-white/10 text-slate-300">Azure Logic Apps</span>
+<span class="px-3 py-1.5 rounded-md text-xs font-mono bg-white/5 border border-white/10 text-slate-300">Azure Functions</span>
+<span class="px-3 py-1.5 rounded-md text-xs font-mono bg-white/5 border border-white/10 text-slate-300">REST APIs</span>
+<span class="px-3 py-1.5 rounded-md text-xs font-mono bg-white/5 border border-white/10 text-slate-300">ETL Pipelines</span>
+</div>
+
+<div class="flex items-center gap-4 pt-4">
+<a href="Krishna R T.pdf" target="_blank" class="px-6 py-3 rounded-lg bg-azure hover:bg-blue-600 text-white font-medium text-sm transition">View Resume</a>
+<a href="#contact" class="px-6 py-3 rounded-lg border border-white/20 hover:bg-white/5 text-white font-medium text-sm transition">Contact Me</a>
+</div>
+</div>
+
+<!-- Architecture Graphic -->
+<div class="lg:col-span-5 bg-card border border-white/10 rounded-2xl p-8 relative overflow-hidden flex flex-col items-center justify-center min-h-[320px] shadow-2xl">
+<div class="absolute inset-0 bg-gradient-to-br from-azure/10 to-transparent"></div>
+<div class="grid grid-cols-2 gap-6 w-full relative z-10">
+<div class="p-4 bg-navy/60 border border-white/10 rounded-xl flex items-center gap-3">
+<i data-lucide="database" class="w-6 h-6 text-lightAzure"></i>
+<span class="text-xs font-mono">Data Factory</span>
+</div>
+<div class="p-4 bg-navy/60 border border-white/10 rounded-xl flex items-center gap-3">
+<i data-lucide="workflow" class="w-6 h-6 text-lightAzure"></i>
+<span class="text-xs font-mono">Logic Apps</span>
+</div>
+<div class="p-4 bg-navy/60 border border-white/10 rounded-xl flex items-center gap-3">
+<i data-lucide="zap" class="w-6 h-6 text-lightAzure"></i>
+<span class="text-xs font-mono">Functions</span>
+</div>
+<div class="p-4 bg-navy/60 border border-white/10 rounded-xl flex items-center gap-3">
+<i data-lucide="cloud-cog" class="w-6 h-6 text-lightAzure"></i>
+<span class="text-xs font-mono">REST APIs</span>
+</div>
+</div>
+</div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="space-y-6">
+<h2 class="font-heading text-2xl sm:text-3xl font-bold">About Me</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="md:col-span-2 bg-card border border-white/10 rounded-2xl p-8 space-y-4">
+<p class="text-textMuted leading-relaxed">
+I’m an <strong class="text-white">Azure Integration Engineer</strong> with 2.5+ years of experience designing and modernizing enterprise cloud integration solutions using Microsoft Azure.
+</p>
+<p class="text-textMuted leading-relaxed">
+My primary expertise centers around <strong class="text-white">Azure Data Factory, Logic Apps, Azure Functions, REST APIs, and ETL Pipelines</strong>. I specialize in migrating legacy ETL solutions (like Informatica PowerCenter) over to native serverless Azure architectures to improve overall efficiency and reliability.
+</p>
+</div>
+<div class="bg-card border border-white/10 rounded-2xl p-8 space-y-4 font-mono text-sm">
+<div>
+<span class="text-textMuted block text-xs">Location</span>
+<span class="text-white font-medium">Bengaluru, India</span>
+</div>
+<div>
+<span class="text-textMuted block text-xs">Experience</span>
+<span class="text-white font-medium">2.5+ Years</span>
+</div>
+<div>
+<span class="text-textMuted block text-xs">Company</span>
+<span class="text-white font-medium">Swiss Re</span>
+</div>
+<div>
+<span class="text-textMuted block text-xs">Role</span>
+<span class="text-white font-medium">Azure Integration Engineer</span>
+</div>
+</div>
+</div>
+</section>
+
+<!-- What I Do -->
+<section id="services" class="space-y-6">
+<h2 class="font-heading text-2xl sm:text-3xl font-bold">What I Do</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="bg-card border border-white/10 rounded-2xl p-8 glow-hover transition-all duration-300">
+<i data-lucide="cloud" class="w-8 h-8 text-lightAzure mb-4"></i>
+<h3 class="font-heading text-xl font-semibold mb-2">Azure Data Integration</h3>
+<p class="text-textMuted text-sm">Design and develop enterprise-grade integration solutions using Microsoft Azure services.</p>
+</div>
+<div class="bg-card border border-white/10 rounded-2xl p-8 glow-hover transition-all duration-300">
+<i data-lucide="layers" class="w-8 h-8 text-lightAzure mb-4"></i>
+<h3 class="font-heading text-xl font-semibold mb-2">ETL Development</h3>
+<p class="text-textMuted text-sm">Build scalable ETL pipelines for enterprise data processing and transformation.</p>
+</div>
+<div class="bg-card border border-white/10 rounded-2xl p-8 glow-hover transition-all duration-300">
+<i data-lucide="code-2" class="w-8 h-8 text-lightAzure mb-4"></i>
+<h3 class="font-heading text-xl font-semibold mb-2">REST API Integration</h3>
+<p class="text-textMuted text-sm">Develop secure API integrations for enterprise applications like SAP SuccessFactors.</p>
+</div>
+<div class="bg-card border border-white/10 rounded-2xl p-8 glow-hover transition-all duration-300">
+<i data-lucide="cpu" class="w-8 h-8 text-lightAzure mb-4"></i>
+<h3 class="font-heading text-xl font-semibold mb-2">Workflow Automation</h3>
+<p class="text-textMuted text-sm">Automate enterprise workflows using Azure Logic Apps, Azure Functions, and Power Automate.</p>
+</div>
+</div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="space-y-6">
+<h2 class="font-heading text-2xl sm:text-3xl font-bold">Skills</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="bg-card border border-white/10 rounded-2xl p-6 glow-hover transition-all duration-300">
+<h3 class="font-heading font-semibold text-lightAzure mb-4">Cloud & Azure</h3>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 rounded bg-navy text-xs font-mono border border-white/5">Azure Data Factory</span>
+<span class="px-3 py-1 rounded bg-navy text-xs font-mono border border-white/5">Azure Logic Apps</span>
+<span class="px-3 py-1 rounded bg-navy text-xs font-mono border border-white/5">Azure Functions</span>
+<span class="px-3 py-1 rounded bg-navy text-xs font-mono border border-white/5">Azure App Service</span>
+<span class="px-3 py-1 rounded bg-navy text-xs font-mono border border-white/5">Azure Monitor</span>
+<span class="px-3 py-1 rounded bg-navy text-xs font-mono border border-white/5">Azure DevOps</span>
+</div>
+</div>
+
+<div class="bg-card border border-white/10 rounded-2xl p-6 glow-hover transition-all duration-300">
+<h3 class="font-heading font-semibold text-lightAzure mb-4">Integration</h3>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 rounded bg-navy text-xs font-mono border border-white/5">ETL Pipelines</span>
+<span class="px-3 py-1 rounded bg-navy text-xs font-mono border border-white/5">REST APIs</span>
+<span class="px-3 py-1 rounded bg-navy text-xs font-mono border border-white/5">Informatica PowerCenter</span>
+</div>
+</div>
+
+<div class="bg-card border border-white/10 rounded-2xl p-6 glow-hover transition-all duration-300">
+<h3 class="font-heading font-semibold text-lightAzure mb-4">Programming</h3>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 rounded bg-navy text-xs font-mono border border-white/5">Python</span>
+<span class="px-3 py-1 rounded bg-navy text-xs font-mono border border-white/5">SQL</span>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="space-y-6">
+<h2 class="font-heading text-2xl sm:text-3xl font-bold">Experience</h2>
+<div class="bg-card border border-white/10 rounded-2xl p-8 space-y-6">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-white/10 pb-4">
+<div>
+<h3 class="font-heading text-xl font-bold text-white">Swiss Re</h3>
+<p class="text-lightAzure font-medium text-sm">Azure Integration Engineer</p>
+</div>
+<div class="text-right sm:text-right font-mono text-xs text-textMuted">
+<p>Feb 2024 – Present</p>
+<p>Bengaluru, India</p>
+</div>
+</div>
+<ul class="space-y-3 text-textMuted text-sm list-disc pl-5">
+<li>Modernized enterprise integration workflows by migrating Informatica PowerCenter solutions to Azure Data Factory, improving efficiency by 30-50%.</li>
+<li>Designed and implemented ADF pipelines to streamline HR and business data processing, improving overall efficiency by 40%.</li>
+<li>Built Azure Logic Apps and Azure Function Apps for workflow orchestration and event-driven automation.</li>
+<li>Integrated enterprise systems using REST APIs including SAP SuccessFactors.</li>
+<li>Implemented CI/CD pipelines using Azure DevOps for automated deployments across environment tiers.</li>
+<li>Managed production support, monitoring via Azure Monitor, and RBAC security configuration.</li>
+</ul>
+</div>
+</section>
+
+<!-- Certifications -->
+<section id="certifications" class="space-y-6">
+<h2 class="font-heading text-2xl sm:text-3xl font-bold">Certifications</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="bg-card border border-azure/40 rounded-2xl p-6 glow-hover transition-all duration-300">
+<span class="font-mono text-xs text-lightAzure block mb-1">AZ-900</span>
+<h3 class="font-heading font-semibold text-lg text-white">Azure Fundamentals</h3>
+<p class="text-textMuted text-xs mt-2">Microsoft Certified</p>
+</div>
+<div class="bg-card border border-azure/40 rounded-2xl p-6 glow-hover transition-all duration-300">
+<span class="font-mono text-xs text-lightAzure block mb-1">AZ-104</span>
+<h3 class="font-heading font-semibold text-lg text-white">Azure Administrator Associate</h3>
+<p class="text-textMuted text-xs mt-2">Microsoft Certified</p>
+</div>
+<div class="bg-card border border-azure/40 rounded-2xl p-6 glow-hover transition-all duration-300">
+<span class="font-mono text-xs text-lightAzure block mb-1">AI-900</span>
+<h3 class="font-heading font-semibold text-lg text-white">Azure AI Fundamentals</h3>
+<p class="text-textMuted text-xs mt-2">Microsoft Certified</p>
+</div>
+</div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="bg-card border border-white/10 rounded-2xl p-8 sm:p-12 text-center space-y-6">
+<h2 class="font-heading text-3xl font-bold">Let's Connect</h2>
+<p class="text-textMuted max-w-lg mx-auto text-sm">Looking to collaborate on enterprise Azure cloud integration, ETL pipelines, or API automation? Feel free to reach out.</p>
+
+<div class="flex flex-col sm:flex-row items-center justify-center gap-6 font-mono text-sm pt-4">
+<a href="mailto:krishnatalreja1992@gmail.com" class="flex items-center gap-2 text-lightAzure hover:underline">
+<i data-lucide="mail" class="w-4 h-4"></i> krishnatalreja1992@gmail.com
+</a>
+<a href="https://linkedin.com/in/krishna-r-talreja" target="_blank" class="flex items-center gap-2 text-[#38BDF8] hover:underline font-mono text-sm">
+    <!-- LinkedIn Vector Icon -->
+    <svg class="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+    </svg>
+    LinkedIn
+</a>
+</a>
+</div>
+
+<div class="pt-6">
+<a href="Krishna R T.pdf" download class="inline-flex items-center gap-2 px-8 py-3 rounded-lg bg-azure hover:bg-blue-600 text-white font-medium text-sm transition shadow-lg shadow-azure/20">
+<i data-lucide="download" class="w-4 h-4"></i> Download Resume
+</a>
+</div>
+</section>
+
+</main>
+
+<!-- Footer -->
+<footer class="border-t border-white/10 py-8 text-center text-xs text-textMuted font-mono">
+<p>Designed & Developed by Krishna R Talreja | © 2026 All Rights Reserved</p>
+</footer>
+
+<script>
+lucide.createIcons();
+</script>
+</body>
+</html>
